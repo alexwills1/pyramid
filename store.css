@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 /* ----------------------- OUTLINE */
-* {
+/* {
   outline: 1px dotted red;
 }
 /* ----------------------- OUTLINE */
@@ -26,8 +26,8 @@ body {
 }
 
 .logo {
+  position: fixed;
   float: left;
-  font-size: 3rem;
   margin-top: 15px;
   margin-left: 450px;
 }
@@ -66,21 +66,20 @@ body {
   overflow: hidden;
 }
 
-div.gallery {
-    margin: 5px;
-    float: left;
-    border: 3px solid #283950;
-    width: 400px;
-    height: 500px;
+#galleryContainer {
+  width: 960px;
+  height: 1520px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 
-div.gallery:hover {
-    border: 3px solid #283950;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
+#galleryImages div {
+  width: 400px;
+  height: 500px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -91,23 +90,4 @@ div.gallery img {
   border-top: 5px solid #8c8c8c;
   font-size: 1rem;
   color: #ffffff;
-}
-
-
-#galleryContainer {
-  width: 960px;
-  height: 1520px;
-  margin-left: auto;
-  margin-right: auto;
-
-  color: white;
-}
-
-#galleryImages div {
-  width: 465px;
-  height: 500px;
-  float: left;
-  margin-left: 10px;
-  margin-bottom: 10px;
-
 }

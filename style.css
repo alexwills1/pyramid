@@ -13,7 +13,7 @@ body {
 }
 /* ----------------------- OUTLINE */
 .header {
-  background-color: #446280;
+  background-color: #ffffff;
   height: 70px;
   border-bottom: 3px solid #283950;
 }
@@ -27,7 +27,7 @@ body {
 
 .logo {
   float: left;
-  font-size: 3rem;
+  position: fixed;
   margin-top: 15px;
   margin-left: 450px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .links a {
-  color: white;
+  color: #000000;
   text-decoration: none;
   padding: 0 10px;
 }
@@ -59,12 +59,28 @@ body {
   margin-right: auto;
 }
 
+.profiles {
+  width: 960px;
+  height: 1520px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.profileImages div {
+  width: 400px;
+  height: 500px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
 .footer {
   margin-left: auto;
   margin-right: auto;
-  background-color: #b3b3b3;
+  background-color: #ffffff;
   height: 50px;
-  border-top: 5px solid #8c8c8c;
+  border-top: 3px solid #000000;
   font-size: 1rem;
-  color: #ffffff;
+  color: #000000;
 }
