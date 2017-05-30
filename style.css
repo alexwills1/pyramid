@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 /* ----------------------- OUTLINE */
-/* {
+* {
   outline: 1px dotted red;
 }
 /* ----------------------- OUTLINE */
@@ -27,7 +27,7 @@ body {
 
 .logo {
   float: left;
-  position: fixed;
+  position: absolute;
   margin-top: 15px;
   margin-left: 450px;
 }
@@ -46,15 +46,17 @@ body {
 }
 
 .banner {
-  background-color: white;
-  text-align: center;
-  border-bottom: 5px solid #000000;
-  padding: 5px 0;
+  width: 960px;
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
 }
 
 .pyramid {
   max-width: 960px;
-  text-align: center;
+  text-align: center; /* DO NOT USE CENTER IT IS BAD CODE */
   margin-left: auto;
   margin-right: auto;
 }
