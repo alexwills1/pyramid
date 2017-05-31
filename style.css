@@ -69,8 +69,8 @@ margin-right: auto;
 
 }
 #logo {
-  font-weight: 700;
   width: 960px;
+  font-weight: 700;
   font-size: 3rem;
   text-align: center;
   margin: 0;
@@ -157,6 +157,61 @@ margin-right: auto;
   text-align: center;
   text-
 }
+#aboutHeader {
+  background-color: #ECF0F1;
+  padding-top: 50px;
+}
+#AboutHeaderExternal
+{
+  margin: 0px;
+  border-top: 3px solid black;
+
+}
+#aboutHeaderContainer{
+  height: 240px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
+
+}
+#aboutlogo {
+  width: 960px;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#aboutLogoText {
+  width: 600px;
+  letter-spacing: -0.75px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#profilesContainer {
+  width: 960px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+
+}
+
+#profileImages div {
+  width: 50px;
+  height: 100px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
 /*
 .header {
   background-color: #ffffff;
@@ -215,7 +270,7 @@ margin-right: auto;
   margin-top: 100px;
 }
 /*
-.profiles {
+#profiles {
   width: 960px;
   height: 1520px;
   margin-left: auto;
@@ -223,20 +278,10 @@ margin-right: auto;
   color: white;
 }
 
-.profileImages div {
+#profileImages div {
   width: 400px;
   height: 500px;
   float: left;
   margin-left: 50px;
   margin-bottom: 50px;
-}
-
-.footer {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffff;
-  height: 50px;
-  border-top: 3px solid #000000;
-  font-size: 1rem;
-  color: #000000;
 }
