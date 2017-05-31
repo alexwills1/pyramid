@@ -12,19 +12,172 @@ body {
   outline: 1px dotted red;
 }
 /* ----------------------- OUTLINE */
+
+#nav {
+position: fixed;
+width: 100%;
+background-color: white;
+opacity: 0.8;
+/*background-color: rgba(236,240,241, 0.4);*/
+margin-left: auto;
+margin-right: auto;
+
+}
+#nav a:hover:not(.active) {
+    background-color: rgb(236,240,241);
+
+}
+
+#linksContainer {
+  height: 25px;
+  width: 960px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+
+}
+
+#links a {
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+#header {
+  background-color: #ECF0F1;
+  padding-top: 50px;
+}
+#headerExternal
+{
+  margin-top: 5px;
+ border-top: 3px solid black;
+
+}
+#headerContainer{
+  height: 580px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
+
+}
+#logo {
+  font-weight: 700;
+  width: 960px;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+}
+#logoNameContainer {
+  font-family: 'Maven Pro';
+  font-weight: 700;
+  width: 960px;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+#logoNameContainer h3
+{
+width: 600px;
+letter-spacing: -0.75px;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+
+}
+#pyramid {
+  max-width: 960px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#pyramid p {
+    margin-top: 10px;
+
+}
+#banner {
+  width: 960px;
+  height:700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+#bannerSlide {
+  width: 100%;
+  max-width: 960px;
+  max-height: 600px;
+  text-align: center;
+}
+#postContainer {
+  height: 200px;
+}
+#shopButtonContainer{
+  width: 960px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#shopButtonContainer a{
+ color: white;
+ text-decoration: none;
+}
+#shopButtonIndex {
+  background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 896px;
+}
+
+#footerContainer {
+  background-color: #4d4b4b;
+  border-top: 2px solid #000000;
+  margin-top: 80px;
+}
+#footer {
+  height: 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+  text-
+}
+/*
 .header {
   background-color: #ffffff;
   height: 70px;
   border-bottom: 3px solid #283950;
-}
-
-.nav {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(236,240,241, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav a:hover:not(.active) {
+    background-color: #FFFFFF;
+  }
 .logo {
   float: left;
   position: absolute;
@@ -47,7 +200,7 @@ body {
 
 .banner {
   width: 960px;
-  height:400px;
+  height:500px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -59,8 +212,9 @@ body {
   text-align: center; /* DO NOT USE CENTER IT IS BAD CODE */
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
-
+/*
 .profiles {
   width: 960px;
   height: 1520px;
