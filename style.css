@@ -197,21 +197,59 @@ margin-right: auto;
 }
 #profilesContainer {
   width: 960px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  margin-top: 30px;
+  padding-top: 20px;
+  background-color: #ECF0F1;
+}
+#profilesContainer h2 {
+  text-align: center;
+  width: 490px;
+  border-bottom: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profileImages{
+  width: 490px;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#profileImages div {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#profileInfo {
+  width: 490px;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
-
 }
-
-#profileImages div {
-  width: 50px;
-  height: 100px;
+#profileInfo h3 {
+  width: 150px;
+  height: 25px;
   float: left;
-  margin-left: 50px;
-  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-top: 0;
+  text-align: center;
 }
+#profileInfo p {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 0;
+  text-align: left;
 
+}
 /*
 .header {
   background-color: #ffffff;
