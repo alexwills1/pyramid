@@ -142,9 +142,9 @@ body {
   padding: 20px;
   border-radius: 3px;
 
-  -webkit-transform: translate(-50%, -250%);
-  -ms-transform: translate(-50%, -250%);
-  transform: translate(-50%, -250%);
+  -webkit-transform: translate(-50%, -350%);
+  -ms-transform: translate(-50%, -350%);
+  transform: translate(-50%, -350%);
 
   -webkit-transition: -webkit-transform 200ms linear;
   transition: transform 200ms linear;
@@ -166,9 +166,9 @@ body {
 }
 
 .modal:target .modalContainer {
-  -webkit-transform: translate(-50%, -100%);
-  -ms-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
+  -webkit-transform: translate(-50%, -150%);
+  -ms-transform: translate(-50%, -150%);
+  transform: translate(-50%, -150%);
 }
 
 # modalClose {}
