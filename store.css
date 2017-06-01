@@ -8,62 +8,103 @@ body {
   height: 100%;
 }
 /* ----------------------- OUTLINE */
-* {
+/* {
   outline: 1px dotted red;
 }
 /* ----------------------- OUTLINE */
-.header {
-  background-color: #ffffff;
-  height: 70px;
-  border-bottom: 3px solid #283950;
-}
-
-.nav {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-}
-
-.logo {
-  position: absolute;
-  float: left;
-  margin-top: 15px;
-  margin-left: 450px;
-}
-
-.links {
-  float: right;
-  margin-top: 35px;
-  font-size: 0.75rem;
-  color: #4b4e61;
-}
-
-.links a {
-  color: #000000;
-  text-decoration: none;
-  padding: 0 10px;
-}
-
-.banner {
+#nav {
+  position: fixed;
+  width: 100%;
   background-color: white;
-  text-align: center;
-  border-bottom: 5px solid #000000;
-  padding: 5px 0;
+  /*background-color: rgba(236,240,241, 0.4);*/
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
 }
 
-.pyramid {
-  max-width: 960px;
+#nav a:hover:not(.active) {
+  background-color: rgb(236,240,241);
+
+}
+
+#linksContainer {
+  height: 25px;
+  width: 960px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+#links a {
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#header {
+  background-color: #ECF0F1;
+  padding-top: 50px;
+}
+
+#headerExternal{
+  margin-top: 5px;
+ border-top: 3px solid black;
+}
+
+#headerContainer{
+  height: 580px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
+
+}
+
+#storeHeader {
+  background-color: #ECF0F1;
+  padding-top: 50px;
+}
+
+#storeHeaderExternal{
+  margin: 0px;
+  border-top: 3px solid black;
+}
+
+#storeHeaderContainer{
+  height: 240px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
+}
+
+#storelogo {
+  width: 960px;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.store {
-  max-width: 960px;
+#storeLogoText {
+  width: 600px;
+  letter-spacing: -0.75px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 }
 
 .galleryContainer {
@@ -118,7 +159,6 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-
 }
 
 .modal:target::before {

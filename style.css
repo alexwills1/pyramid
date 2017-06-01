@@ -8,23 +8,23 @@ body {
   height: 100%;
 }
 /* ----------------------- OUTLINE */
-* {
+/* {
   outline: 1px dotted red;
 }
 /* ----------------------- OUTLINE */
 
 #nav {
-position: fixed;
-width: 100%;
-background-color: white;
-opacity: 0.8;
-/*background-color: rgba(236,240,241, 0.4);*/
-margin-left: auto;
-margin-right: auto;
-
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  /*background-color: rgba(236,240,241, 0.4);*/
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
 }
+
 #nav a:hover:not(.active) {
-    background-color: rgb(236,240,241);
+  background-color: rgb(236,240,241);
 
 }
 
@@ -38,8 +38,6 @@ margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
-
-
 }
 
 #links a {
@@ -145,23 +143,11 @@ margin-right: auto;
     width: 896px;
 }
 
-#footerContainer {
-  background-color: #4d4b4b;
-  border-top: 2px solid #000000;
-  margin-top: 80px;
-}
-#footer {
-  height: 20px;
-  font-size: 1rem;
-  color: #ffffff;
-  text-align: center;
-  text-
-}
 #aboutHeader {
   background-color: #ECF0F1;
   padding-top: 50px;
 }
-#AboutHeaderExternal
+#aboutHeaderExternal
 {
   margin: 0px;
   border-top: 3px solid black;
@@ -226,6 +212,7 @@ margin-right: auto;
   margin: 0;
   margin-left: 10px;
   margin-top: 10px;
+  border: 1.5px solid #000000;
 }
 #profileInfo {
   width: 490px;
@@ -248,78 +235,59 @@ margin-right: auto;
   margin-left: 10px;
   margin-top: 0;
   text-align: left;
-
-}
-/*
-.header {
-  background-color: #ffffff;
-  height: 70px;
-  border-bottom: 3px solid #283950;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
 }
 
-.nav {
-  position: fixed;
-  width: 100%;
-  background-color: rgba(236,240,241, 0.4);
-  margin-left: auto;
-  margin-right: auto;
+#contactHeader {
+  background-color: #ECF0F1;
+  padding-top: 50px;
 }
-.nav a:hover:not(.active) {
-    background-color: #FFFFFF;
-  }
-.logo {
-  float: left;
-  position: absolute;
-  margin-top: 15px;
-  margin-left: 450px;
-}
+#contactHeaderExternal
+{
+  margin: 0px;
+  border-top: 3px solid black;
 
-.links {
-  float: right;
-  margin-top: 35px;
-  font-size: 0.75rem;
-  color: #4b4e61;
 }
-
-.links a {
-  color: #000000;
-  text-decoration: none;
-  padding: 0 10px;
-}
-
-.banner {
+#contactHeaderContainer{
+  height: 240px;
   width: 960px;
-  height:500px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  border-bottom: 3px solid black;
 
 }
-
-.pyramid {
-  max-width: 960px;
-  text-align: center; /* DO NOT USE CENTER IT IS BAD CODE */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
-/*
-#profiles {
+#contactlogo {
   width: 960px;
-  height: 1520px;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+}
+#contactLogoText {
+  width: 600px;
+  letter-spacing: -0.75px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#profileImages div {
-  width: 400px;
-  height: 500px;
-  float: left;
-  margin-left: 50px;
-  margin-bottom: 50px;
+#footerContainer {
+  background-color: #4d4b4b;
+  border-top: 2px solid #000000;
+  margin-top: 80px;
+}
+#footer {
+  height: 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+
 }
