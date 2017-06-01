@@ -142,9 +142,9 @@ body {
   padding: 20px;
   border-radius: 3px;
 
-  -webkit-transform: translate(-50%, -250%);
-  -ms-transform: translate(-50%, -250%);
-  transform: translate(-50%, -250%);
+  -webkit-transform: translate(-220px, -2000px);
+  -ms-transform: translate(-220px, -2000px);
+  transform: translate(-220px, -2000px);
 
   -webkit-transition: -webkit-transform 200ms linear;
   transition: transform 200ms linear;
@@ -166,6 +166,8 @@ body {
 }
 
 .modal:target .modalContainer {
+  top: 80%;
+
   -webkit-transform: translate(-50%, -100%);
   -ms-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
