@@ -112,7 +112,9 @@ body {
   height: 1520px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: black;
+  text-align: center;
+
 }
 
 .galleryImages div {
@@ -133,6 +135,7 @@ body {
   color: #ffffff;
 }
 
+/*
 .modalContainer {
   position: fixed;
   background-color: #ffff;
@@ -180,3 +183,4 @@ body {
 }
 
 # modalClose {}
+*/
