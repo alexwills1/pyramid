@@ -55,7 +55,7 @@ body {
 
 #headerExternal{
   margin-top: 5px;
- border-top: 3px solid black;
+  border-top: 3px solid black;
 }
 
 #headerContainer{
@@ -142,8 +142,6 @@ body {
 }
 
 @media screen and (max-width: 982px){
-  .footer {
-    position: absolute;
-  }
+
 
 }
