@@ -131,6 +131,7 @@ body {
   border-top: 5px solid #000000;
   font-size: 1rem;
   color: #ffffff;
+<<<<<<< HEAD
   text-align: center;
   right: 0;
   bottom: 0;
@@ -141,4 +142,6 @@ body {
   .footer {
     position: absolute;
   }
+=======
+>>>>>>> origin/master
 }
