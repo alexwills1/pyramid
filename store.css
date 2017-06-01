@@ -142,9 +142,15 @@ body {
   padding: 20px;
   border-radius: 3px;
 
+<<<<<<< HEAD
   -webkit-transform: translate(-300px, -3000px);
   -ms-transform: translate(-300px, -3000px);
   transform: translate(-300px, -3000px);
+=======
+  -webkit-transform: translate(-220px, -5000px);
+  -ms-transform: translate(-220px, -5000px);
+  transform: translate(-220px, -5000px);
+>>>>>>> origin/master
 
   -webkit-transition: -webkit-transform 200ms linear;
   transition: transform 200ms linear;
