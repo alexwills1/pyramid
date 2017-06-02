@@ -287,30 +287,179 @@ margin-right: auto;
   left: 0;
 }
 
-/*
-@media screen and (max-width: 982px) {
-  #linksContainer {
-    height: 25px;
-    font-size: 1rem;
+
+@media screen and (max-width: 768px) {
+  #logoNameContainer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    width: 300px;
+    float: left;
+    margin-left: 75px;
+  }
+
+  #logo img {
+    float: left;
+    margin-left: 75px;
   }
 
   #links a {
-    color: black;
-    text-decoration: none;
+    float: left;
+    font-size: 0.55rem;
+  }
+/* Josh fix the slideshow to fit 768 screen and the same for a an iphone
+  #bannerSlide {
+    width: 50%;
+    max-width: 768px;
+    max-height: 500px;
+    text-align: center;
+  }
+*/
+  #shopButtonContainer{
+    width: 782px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  #footerContainer {
-    margin-top: 80px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 960px;
+  #shopButtonIndex {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 722px;
   }
-  #footer {
-    height: 20px;
-    font-size: 1.5rem;
-    color: #ffffff;
+  #contactlogo {
+    margin-right: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #logoNameContainer {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+  }
+
+  #header {
+    height: 500px;
+  }
+
+  #headerContainer {
+    height: 457.5px;
+  }
+
+  #logo {
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  #logo img {
+    overflow: hidden;
+    width: 35%;
+    height: 50%;
+    float: left;
+    margin-left: 20px;
+  }
+
+  #links {
+    overflow: hidden;
     text-align: center;
   }
 
+  #links a {
+    float: left;
+    font-size: 0.55rem;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 35px;
+    margin-right: 0px;
+  }
+/* Josh fix the slideshow to fit 768 screen and the same for a an iphone
+  #bannerSlide {
+    width: 50%;
+    max-width: 768px;
+    max-height: 500px;
+    text-align: center;
+  }
+*/
+  #shopButtonContainer{
+    width: 782px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #shopButtonIndex {
+    overflow: hidden;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 322px;
+  }
+
+  #profilesContainer {
+    overflow: hidden;
+    width: 375px;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #ECF0F1;
+  }
+
+  #profileImages {
+    margin-left: 40px;
+  }
+  #profileInfo h3 {
+    margin-left: 40px;
+  }
+
+  #profileInfo {
+    margin-left: 40px;
+  }
+
+  #contactlogo {
+    overflow: hidden;
+    width: 35%;
+    float: left;
+    margin-left: 115px;
+  }
+
+  #contactHeader {
+    height: 250px;
+    border-bottom: 3px solid black;
+  }
+
+  #contactContainer {
+    height: 457.5px;
+  }
+
+  #contactLogoText {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    width: 300px;
+    float: left;
+    margin-left: 115px;
+  }
 }
