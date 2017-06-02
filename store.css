@@ -130,6 +130,7 @@ body {
 
 }
 .footer {
+<<<<<<< HEAD
     background-color: #4d4b4b;
     height: 50px;
     border-top: 5px solid #000000;
@@ -139,6 +140,9 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+=======
+
+>>>>>>> origin/master
 }
 
 @media screen and (max-width: 982px){
