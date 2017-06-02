@@ -2,77 +2,91 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pyramid Clothing</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!-- Jquery before Bootstrap -->
   <link rel="stylesheet" href="jquery.fancybox.min.css" /> <!-- Bootstrap after Jquery -->
   <script src="jquery.fancybox.min.js"></script>
-    <link rel="stylesheet" href="store.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="icon" href="img/logo1.png" type="image/png" sizes="60x60">
   </head>
     <body>
 
-          <div id="nav">
-                <div id="linksContainer">
-                  <div id="links">
-                    <a href="index.html">HOME</a>
+      <header>
+        <nav>
+          <div class="nav">
+                <div class="container">
+                  <div class="linkContainer">
+                    <div class="columns links">
+                      <a class="column" href="index.html">HOME</a>
 
-                    <a href="store.html">STORE</a>
+                      <a class="column" href="store.html">STORE</a>
 
-                    <a href="about.html">ABOUT</a>
+                      <a class="column" href="about.html">ABOUT</a>
 
-                    <a href="contact.html">CONTACT</a>
+                      <a class="column" href="contact.html">CONTACT</a>
                   </div>
                 </div>
               </div>
-              <div id="storeHeader">
-                <div id="storeExternal">
-          <div id="storeContainer">
-              <div id="storelogo">
+          </div>
+        </nav>
+      </header>
+      <main>
+          <div class="container">
+              <div class="storeHeader">
+                <div class="storeExternal">
+          <div class="storeContainer">
+              <div class="storelogo">
               <a href="index.html">
                 <img src="img/logo1.png" alt="logo" width="100" height="75">
                 </a>
               </div>
-              <div id="storeLogoText">
+              <div class="storeLogoText">
 
                 <h3> - STORE - </h3>
 
               </div>
             </div>
           </div>
-          </div>
+        </div>
+      </div>
 
+<div class="container">
       <div class="galleryContainer">
 
-        <div class="galleryImages">
+        <div class="galleryImages columns wrap">
 
-        <div> <a data-fancybox="gallery" href="designs/KurtShirt.jpg"><img src="designs/KurtShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/KurtShirt.jpg"><img src="designs/KurtShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
-        <div> <a data-fancybox="gallery" href="designs/NasShirt.jpg"><img src="designs/NasShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/NasShirt.jpg"><img src="designs/NasShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
-        <div> <a data-fancybox="gallery" href="designs/GambinoShirt.jpg"><img src="designs/GambinoShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/GambinoShirt.jpg"><img src="designs/GambinoShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
-        <div> <a data-fancybox="gallery" href="designs/KanyeShirt.jpg"><img src="designs/KanyeShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/KanyeShirt.jpg"><img src="designs/KanyeShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
-        <div> <a data-fancybox="gallery" href="designs/KendrickShirt.jpg"><img src="designs/KendrickShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/KendrickShirt.jpg"><img src="designs/KendrickShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
-        <div> <a data-fancybox="gallery" href="designs/AsapShirt.jpg"><img src="designs/AsapShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/AsapShirt.jpg"><img src="designs/AsapShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
-        <div> <a data-fancybox="gallery" href="designs/LogicShirt.jpg"><img src="designs/LogicShirt.jpg"></a>
+        <div class="column"> <a data-fancybox="gallery" href="designs/LogicShirt.jpg"><img src="designs/LogicShirt.jpg"></a>
           <h3>$59.99</h3>
         </div>
 
       </div>
     </div>
+    </div>
+  </main>
 
+<footer>
       <div class="footer">
         <p>Made By AW, LTB, JP.</p>
       </div>
-
+</footer>
     </body>
 </html>

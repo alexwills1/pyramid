@@ -12,7 +12,7 @@ body {
   outline: 1px dotted red;
 }
 /* ----------------------- OUTLINE */
-#nav {
+.nav {
   position: fixed;
   width: 100%;
   background-color: white;
@@ -22,12 +22,12 @@ body {
   border-bottom: 3px solid black;
 }
 
-#nav a:hover:not(.active) {
+.nav a:hover:not(.active) {
   background-color: rgb(236,240,241);
 
 }
 
-#linksContainer {
+.linksContainer {
   height: 25px;
   width: 960px;
   text-align: center;
@@ -39,7 +39,7 @@ body {
   margin-top: 10px;
 }
 
-#links a {
+.links a {
   color: black;
   text-decoration: none;
   padding-left: 10px;
@@ -48,17 +48,17 @@ body {
   margin-right: 70px;
 }
 
-#header {
+.header {
   background-color: #ECF0F1;
   padding-top: 50px;
 }
 
-#headerExternal {
+.headerExternal {
   margin-top: 5px;
   border-top: 3px solid black;
 }
 
-#headerContainer {
+.headerContainer {
   height: 580px;
   width: 960px;
   margin-left: auto;
@@ -67,17 +67,17 @@ body {
 
 }
 
-#storeHeader {
+.storeHeader {
   background-color: #ECF0F1;
   padding-top: 50px;
 }
 
-#storeHeaderExternal {
+.storeHeaderExternal {
   margin: 0px;
   border-top: 3px solid black;
 }
 
-#storeHeaderContainer {
+.storeHeaderContainer {
   height: 240px;
   width: 960px;
   margin-left: auto;
@@ -85,7 +85,7 @@ body {
   border-bottom: 3px solid black;
 }
 
-#storelogo {
+.storelogo {
   width: 960px;
   font-weight: 700;
   font-size: 3rem;
@@ -96,7 +96,7 @@ body {
   margin-right: auto;
 }
 
-#storeLogoText {
+.storeLogoText {
   width: 600px;
   letter-spacing: -0.75px;
   margin: 0;
@@ -142,6 +142,11 @@ body {
 
 }
 
-@media screen and (max-width: 982px){
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
 
 }

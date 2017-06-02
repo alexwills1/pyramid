@@ -15,6 +15,16 @@ body {
   margin: 0;
   height: 100%;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+.has-text-centred,
+.has-text-centered {
+  text-align: center;
+}
+
 /* ----------------------- OUTLINE */
 * {
   outline: 1px dotted red;
@@ -50,10 +60,7 @@ body {
 .links a {
   color: black;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 70px;
-  margin-right: 70px;
+  text-align: center;
 }
 .bigLogo {
   background-color: #ECF0F1;
@@ -69,7 +76,11 @@ body {
   /*-webkit-display: flex;*/
   display: flex;
   justify-content: center;
+}
 
+.columns.no-vertical-padding .column {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .columns.wrap {
@@ -130,17 +141,19 @@ margin-right: auto;
 
 .pyramid p {
     margin-top: 10px;
+    text-align: center;
 
 }
 .banner {
   width: 100%;
   max-width: 960px;
-  height:700px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5px;
-}
 
+}
+.banner img {
+  display: block;
+}
 .bannerSlide {
   width: 100%;
   max-width: 960px;
@@ -152,7 +165,6 @@ margin-right: auto;
 }
 .shopButtonContainer{
   width: 100%;
-  height: 100px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -179,19 +191,18 @@ margin-right: auto;
 .aboutHeaderExternal
 {
   margin: 0px;
-  border-top: 3px solid black;
+
 
 }
 .aboutHeaderContainer{
-  height: 240px;
-  width: 960px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 3px solid black;
 
 }
 .aboutlogo {
-  width: 960px;
+  width: 100%;
   font-weight: 700;
   font-size: 3rem;
   text-align: center;
@@ -201,7 +212,7 @@ margin-right: auto;
   margin-right: auto;
 }
 .aboutLogoText {
-  width: 600px;
+  width: 100%;
   letter-spacing: -0.75px;
   margin: 0;
   font-weight: 700;
@@ -211,18 +222,26 @@ margin-right: auto;
   margin-right: auto;
 }
 .profilesContainer {
-  width: 960px;
-  height: 550px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+
+/*
   margin-left: auto;
   margin-right: auto;
   color: black;
   margin-top: 30px;
   padding-top: 20px;
   background-color: #ECF0F1;
+  text-align: center;
+  */
 }
 .profilesContainer h2 {
   text-align: center;
-  width: 490px;
+  width: 100%;
   border-bottom: 2px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -243,7 +262,7 @@ margin-right: auto;
   margin-top: 10px;
   border: 1.5px solid #000000;
 }
-
+/*
 
 .contactHeader {
   background-color: #ECF0F1;
@@ -283,6 +302,7 @@ margin-right: auto;
   margin-left: auto;
   margin-right: auto;
 }
+*/
 .footer {
   background-color: #4d4b4b;
   height: 50px;
@@ -295,6 +315,81 @@ margin-right: auto;
   left: 0;
 }
 
+.storeHeader {
+  background-color: #ECF0F1;
+  padding-top: 50px;
+  height: 300px;
+}
+
+.storeHeaderExternal {
+  margin: 0px;
+  border-top: 3px solid black;
+}
+
+.storeHeaderContainer {
+  height: 240px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid black;
+}
+
+.storelogo {
+  width:100%;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.storeLogoText {
+  width: 100%;
+  letter-spacing: -0.75px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.galleryContainer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+
+
+}
+
+/*.galleryImages {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+.galleryImages .column {
+  width: 50%;
+  flex-basis: auto;
+}
+
+@media (max-width: 767px) {
+  .galleryImages.columns {
+    display: block;
+  }
+
+  .galleryImages.columns .column {
+    width: 100%;
+  }
+}
+
+.galleryImages h3 {
+  margin-top: 10px;
+
+}
 .container {
   padding: 10px;
   width: 100%;
@@ -326,19 +421,23 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-.banner {
-  height: 200px;
-}
-.shopButtonContainer{
-  height: 50px;
-}
-.links a {
-
-  font-size: 0.5rem;
-  margin-left:5px;
-  margin-right: 5px;
+  .banner {
+    height: 200px;
+  }
+  .shopButtonContainer{
+    height: 50px;
+  }
+  .links a {
+    font-size: 0.5rem;
+  }
 }
 
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
+
+}
+
+/*
 @media screen and (min-width: 768px) and (max-width: 979px) {
 .banner {
   height:500px;
