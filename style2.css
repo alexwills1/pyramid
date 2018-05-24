@@ -26,11 +26,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* ----------------------- OUTLINE */
-/* {
-  outline: 1px dotted red;
-}
+/*
 /* ----------------------- OUTLINE */
 
+*{
+  outline: 1px dotted red;
+}
 .nav {
   position: fixed;
   width: 100%;
@@ -52,9 +53,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-left: auto;
   margin-right: auto;
   font-size: 1rem;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
+
 }
 
 .links a {
